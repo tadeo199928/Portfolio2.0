@@ -3,12 +3,14 @@ import NavigationBar from "../components/navigation/navbar";
 import "./App.css";
 import { useState } from "react";
 import { DarkModeContext } from "../components/ui/darkMode/darkModeContext";
+import Snowfall from "react-snowfall";
 
 export const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(true);
   return (
     <DarkModeContext.Provider value={{ isDarkMode, setIsDarkMode }}>
       <div className="App" data-theme={isDarkMode ? "dark" : "light"}>
+        <Snowfall />
         <NavigationBar />
         <main>
           <div className="content">
@@ -19,6 +21,6 @@ export const App = () => {
       </div>
     </DarkModeContext.Provider>
   );
-}
+};
 
 export default App;
