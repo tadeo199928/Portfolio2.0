@@ -1,10 +1,18 @@
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import "./navbar.css";
+import Toggle from "../ui/darkMode/Toggle";
+import { useDarkMode } from "../ui/darkMode/darkModeContext";
 
 const NavigationBar: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const { isDarkMode, setIsDarkMode } = useDarkMode();
+
+  const handleToggleChange = () => {
+    setIsDarkMode(!isDarkMode);
+  };
+
   return (
     <nav>
       <div className="navbar-container">
@@ -48,6 +56,9 @@ const NavigationBar: React.FC = () => {
           </li>
           <li className="navbar-item">
             <a href="#contact">Contact</a>
+          </li>
+          <li className="navbar-item">
+            <Toggle handledChange={handleToggleChange} isChecked={isDarkMode} />
           </li>
         </ul>
       </div>
