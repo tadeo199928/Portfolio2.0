@@ -5,6 +5,9 @@ import Title from "../components/title/Title";
 import Subtitle from "../components/title/Subtitle";
 import { useState, useEffect } from "react";
 import { getItem, setLocalStorage } from "./utils/localStorage";
+import SkillsIcon from "../components/skillsIcon/SkillsIcon";
+import { techStack } from "../components/skillsIcon/iconsData";
+
 
 export const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(() => {
@@ -18,6 +21,8 @@ export const App = () => {
 
   return (
     <DarkModeContext.Provider value={{ isDarkMode, setIsDarkMode }}>
+
+
       <div className="App" data-theme={isDarkMode ? "dark" : "light"}>
         <NavigationBar />
         <main>
@@ -26,6 +31,9 @@ export const App = () => {
             <Subtitle
               text={["Front-end Developer", "Problem Solver", "Quick Learner"]}
             />
+          </div>
+          <div className="tech-stack">
+            <SkillsIcon skills={techStack} />
           </div>
         </main>
       </div>

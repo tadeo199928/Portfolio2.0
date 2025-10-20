@@ -69,6 +69,11 @@
   margin: 0;
 }
 
+.navbar-item.dropdown:hover {
+  background-color: rgb(154, 154, 154);
+  border-radius: 5%;
+}
+
 .dropdown-menu {
   display: none;
   opacity: 0;
@@ -84,7 +89,6 @@
   z-index: 100;
   overflow: hidden;
   border: none;
-  border-radius: 8px;
   min-width: auto;
   width: auto;
 }
@@ -181,7 +185,7 @@
     transition: opacity 0.8s ease, transform 2s ease;
   }
 
-    [data-theme="dark"] .dropdown-menu {
+  [data-theme="dark"] .dropdown-menu {
     background: rgb(109, 108, 108);
   }
 
