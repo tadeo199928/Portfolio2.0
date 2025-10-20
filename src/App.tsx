@@ -1,21 +1,33 @@
 import "./App.css";
 import NavigationBar from "../components/navigation/navbar";
-import "./App.css";
-import { useState } from "react";
 import { DarkModeContext } from "../components/ui/darkMode/darkModeContext";
-import Snowfall from "react-snowfall";
+import Snow from "../components/ui/snow/Snow";
+import Title from "../components/title/Title";
+import Subtitle from "../components/title/Subtitle";
+import { useState, useEffect } from "react";
+import { getItem, setLocalStorage } from "./utils/localStorage";
 
 export const App = () => {
-  const [isDarkMode, setIsDarkMode] = useState(true);
+  const [isDarkMode, setIsDarkMode] = useState(() => {
+    const item = getItem("isDarkMode");
+    return item !== undefined ? item : true;
+  });
+
+  useEffect(() => {
+    setLocalStorage("isDarkMode", isDarkMode);
+  }, [isDarkMode]);
+
   return (
     <DarkModeContext.Provider value={{ isDarkMode, setIsDarkMode }}>
       <div className="App" data-theme={isDarkMode ? "dark" : "light"}>
-        <Snowfall />
         <NavigationBar />
+        <Snow />
         <main>
-          <div className="content">
-            <h1>Welcome to My Portfolio</h1>
-            <p>This is a showcase of my work.</p>
+          <div className="title">
+            <Title text="Jose Vasconcelos" />
+            <Subtitle
+              text={["Front-end Developer", "Problem Solver", "Quick Learner"]}
+            />
           </div>
         </main>
       </div>

@@ -160,6 +160,8 @@
     cursor: pointer;
   }
 
+  .navbar-item 
+
   .navbar-item.dropdown:hover .dropdown-menu {
     display: none;
   }

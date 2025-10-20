@@ -1,0 +1,22 @@
+.title-container {
+  width: 100%;
+  height: auto; /* Changed from 300px */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem 1rem 1rem;
+  color: var(--primary-text-color);
+}
+
+.title-container .text-type {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--primary-text-color);
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .title-container .text-type {
+    font-size: 2rem;
+  }
+}

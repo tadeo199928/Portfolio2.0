@@ -16,7 +16,7 @@ const NavigationBar: React.FC = () => {
   return (
     <nav>
       <div className="navbar-container">
-        <h1 className="navbar-title">My Portfolio</h1>
+        <h1 className="navbar-title">Portfolio</h1>
         <button
           className="navbar-toggle"
           onClick={() => {
