@@ -1,7 +1,6 @@
 import "./App.css";
 import NavigationBar from "../components/navigation/navbar";
 import { DarkModeContext } from "../components/ui/darkMode/darkModeContext";
-import Snow from "../components/ui/snow/Snow";
 import Title from "../components/title/Title";
 import Subtitle from "../components/title/Subtitle";
 import { useState, useEffect } from "react";
@@ -21,7 +20,6 @@ export const App = () => {
     <DarkModeContext.Provider value={{ isDarkMode, setIsDarkMode }}>
       <div className="App" data-theme={isDarkMode ? "dark" : "light"}>
         <NavigationBar />
-        <Snow />
         <main>
           <div className="title">
             <Title text="Jose Vasconcelos" />
