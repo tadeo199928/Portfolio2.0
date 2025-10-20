@@ -21,8 +21,6 @@ export const App = () => {
 
   return (
     <DarkModeContext.Provider value={{ isDarkMode, setIsDarkMode }}>
-
-
       <div className="App" data-theme={isDarkMode ? "dark" : "light"}>
         <NavigationBar />
         <main>

@@ -22,12 +22,6 @@ export type Skill = {
   color?: string;
 };
 
-export interface SkillIcons {
-  name: string;
-  icon: IconType;
-  color?: string;
-}
-
 export const techStack: Skill[] = [
   { name: "React", icon: FaReact, color: "#61DAFB" },
   { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },

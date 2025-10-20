@@ -12,7 +12,6 @@
 
 .subtitle-container .text-type {
   text-align: center;
-  color: var(--secondary-text-color);
 }
 
 @media (max-width: 768px) {
