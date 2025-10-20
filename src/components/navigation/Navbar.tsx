@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";
-import "./navbar.css";
+import "./Navbar.css";
 import Toggle from "../ui/darkMode/Toggle";
-import { useDarkMode } from "../ui/darkMode/darkModeContext";
+import { useDarkMode } from "../ui/darkMode/DarkModeContext";
 
 const NavigationBar: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);

@@ -1,12 +1,12 @@
 import "./App.css";
-import NavigationBar from "../components/navigation/navbar";
-import { DarkModeContext } from "../components/ui/darkMode/darkModeContext";
-import Title from "../components/title/Title";
-import Subtitle from "../components/title/Subtitle";
+import NavigationBar from "./components/navigation/Navbar";
+import { DarkModeContext } from "./components/ui/darkMode/DarkModeContext";
+import Title from "./components/title/Title";
+import Subtitle from "./components/title/Subtitle";
 import { useState, useEffect } from "react";
 import { getItem, setLocalStorage } from "./utils/localStorage";
-import SkillsIcon from "../components/skillsIcon/SkillsIcon";
-import { techStack } from "../components/skillsIcon/iconsData";
+import SkillsIcon from "./components/skillsIcon/SkillsIcon";
+import { techStack } from "./components/skillsIcon/iconsData";
 
 
 export const App = () => {
