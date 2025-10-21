@@ -9,6 +9,8 @@ import SkillsIcon from "./components/skillsIcon/SkillsIcon";
 import { techStack } from "./components/skillsIcon/iconsData";
 import About from "./components/about/About";
 import SubtitleH2 from "./components/title/SubtitleH2";
+import { Projects } from "./components/projects/Projects";
+import Footer from "./components/footer/Footer"
 
 export const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(() => {
@@ -39,7 +41,12 @@ export const App = () => {
             <SubtitleH2 text="About Me" />
             <About />
           </div>
+          <div className="project-section">
+            <SubtitleH2 text="Projects" />
+            <Projects />
+          </div>
         </main>
+        <Footer />
       </div>
     </DarkModeContext.Provider>
   );

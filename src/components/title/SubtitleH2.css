@@ -13,7 +13,7 @@
 }
 
 @media (max-width: 768px) {
-  .title-container .text-type {
-    font-size: 1rem;
+  .title-container-h2 .text-type {
+    font-size: 1.5rem;
   }
 }

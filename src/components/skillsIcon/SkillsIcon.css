@@ -15,7 +15,7 @@
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-columns: repeat(6, 1fr);
   gap: 2rem;
   justify-items: center;
 }
@@ -40,8 +40,7 @@
 
 @media (max-width: 768px) {
   .skills-grid {
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 1.5rem;
+   grid-template-columns: repeat(2, 1fr);
   }
   
   .skill-item svg {
