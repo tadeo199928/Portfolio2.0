@@ -12,25 +12,25 @@ const Footer: React.FC = () => {
         </p>
         <div className="footer-links">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/tadeo199928"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="Github"
             className="footer-link"
           >
             <FaGithub />
             <span>GitHub</span>
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/tadeo199928j/"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="LinkedIn"
             className="footer-link"
           >
             <FaLinkedin />
             <span>LinkedIn</span>
           </a>
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:tadeo199928@gmail.com"
             className="footer-link"
           >
             <FaEnvelope />
