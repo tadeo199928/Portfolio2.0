@@ -17,14 +17,13 @@ const About: React.FC = () => {
         frameworks. I bring a problem-solving mindset and quick learning ability
         to every project I tackle.
       </p>
-      <button className="download-cv-button">
-        <a
-          href="/Jose_Vasconcelos_CV.pdf"
-          download="Jose_Vasconcelos_CV.pdf"
-        >
-          Download CV
-        </a>
-      </button>
+      <a
+        href="/Jose_Vasconcelos_CV.pdf"
+        download="Jose_Vasconcelos_CV.pdf"
+        className="download-cv-button"
+      >
+        Download CV
+      </a>
     </section>
   );
 };
