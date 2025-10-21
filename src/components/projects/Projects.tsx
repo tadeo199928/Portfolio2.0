@@ -5,24 +5,24 @@ export const Projects: React.FC = () => {
   const projects = [
     {
       id: 1,
-      title: "Project One",
-      description: "A brief description of Project One.",
+      title: "Todo List App",
+      description: "This is a simple Todo List application built with JS",
       image: "https://i.ytimg.com/vi/M0fUKOv2A04/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB26tEFuzfqwDCdMC-VqE_0gUe6Gg",
-      link: "#",
+      link: "https://tadeo199928.github.io/to-Do_List/",
     },
     {
       id: 2,
-      title: "Project Two",
-      description: "A brief description of Project Two.",
+      title: "Snkake.js",
+      description: "Game developed with JavaScript and HTML5 Canvas",
       image: "https://i.ytimg.com/vi/M0fUKOv2A04/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB26tEFuzfqwDCdMC-VqE_0gUe6Gg",
-      link: "#",
+      link: "https://tadeo199928.github.io/snake.js/",
     },
     {
       id: 3,
-      title: "Project Three",
-      description: "A brief description of Project Three.",
+      title: "My first Portfolio",
+      description: "This was my first page made with HTML and CSS, you can compare my progress",
       image: "https://i.ytimg.com/vi/M0fUKOv2A04/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB26tEFuzfqwDCdMC-VqE_0gUe6Gg",
-      link: "#",
+      link: "https://tadeo199928.github.io/Portfolio/",
     },
     {
       id: 4,
