@@ -1,11 +1,11 @@
 import TextType from "./TextType";
-import "./Subtitle.css";
+import "./MainSubtitle.css";
 
 interface SubtitleProps {
   text: string[];
 }
 
-const Subtitle: React.FC<SubtitleProps> = ({ text }) => {
+const MainSubtitle: React.FC<SubtitleProps> = ({ text }) => {
   return (
     <div className="subtitle-container">
       <TextType
@@ -21,4 +21,4 @@ const Subtitle: React.FC<SubtitleProps> = ({ text }) => {
   );
 };
 
-export default Subtitle;
+export default MainSubtitle;

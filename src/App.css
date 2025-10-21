@@ -37,3 +37,7 @@ nav {
 main {
   width: 100%;
 }
+
+.about-section {
+  display: grid;
+}

@@ -2,12 +2,13 @@ import "./App.css";
 import NavigationBar from "./components/navigation/Navbar";
 import { DarkModeContext } from "./components/ui/darkMode/DarkModeContext";
 import Title from "./components/title/Title";
-import Subtitle from "./components/title/Subtitle";
+import MainSubtitle from "./components/title/MainSubtitle";
 import { useState, useEffect } from "react";
 import { getItem, setLocalStorage } from "./utils/localStorage";
 import SkillsIcon from "./components/skillsIcon/SkillsIcon";
 import { techStack } from "./components/skillsIcon/iconsData";
 import About from "./components/about/About";
+import SubtitleH2 from "./components/title/SubtitleH2";
 
 export const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(() => {
@@ -26,14 +27,16 @@ export const App = () => {
         <main>
           <div className="title">
             <Title text="Jose Vasconcelos" />
-            <Subtitle
+            <MainSubtitle
               text={["Front-end Developer", "Problem Solver", "Quick Learner"]}
             />
           </div>
           <div className="tech-stack">
+            <SubtitleH2 text="Tech Stack" />
             <SkillsIcon skills={techStack} />
           </div>
           <div className="about-section">
+            <SubtitleH2 text="About Me" />
             <About />
           </div>
         </main>
