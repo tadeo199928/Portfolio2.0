@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 import { getItem, setLocalStorage } from "./utils/localStorage";
 import SkillsIcon from "./components/skillsIcon/SkillsIcon";
 import { techStack } from "./components/skillsIcon/iconsData";
-
+import About from "./components/about/About";
 
 export const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(() => {
@@ -32,6 +32,9 @@ export const App = () => {
           </div>
           <div className="tech-stack">
             <SkillsIcon skills={techStack} />
+          </div>
+          <div className="about-section">
+            <About />
           </div>
         </main>
       </div>
