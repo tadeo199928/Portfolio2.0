@@ -43,9 +43,9 @@
   display: block;
 }
 .navbar-item a:hover {
-  background-color: rgba(154, 154, 154);
+  background-color: rgba(154, 154, 154, 0.3);
   border-radius: 5px;
-} 
+}
 
 .navbar-item .dropbtn {
   font-size: 16px;
@@ -54,13 +54,12 @@
   color: inherit;
   padding: 14px 16px;
   background-color: inherit;
-  border-radius: 5px;
   font-family: inherit;
   cursor: pointer;
 }
 
 .navbar-item.dropdown:hover {
-  background-color: rgba(154, 154, 154);
+  background-color: rgba(154, 154, 154, 0.3);
   border-radius: 5px;
 }
 

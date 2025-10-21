@@ -1,0 +1,22 @@
+.subtitle-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: var(--secondary-text-color);
+  font-weight: 300;
+  min-height: 2.5rem;
+}
+
+.subtitle-container .text-type {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .subtitle-container {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+}
