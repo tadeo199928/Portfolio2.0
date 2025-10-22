@@ -44,13 +44,13 @@ const NavigationBar: React.FC = () => {
             </button>
             <ul className={`dropdown-menu ${dropdownOpen ? "open" : ""}`}>
               <li className="dropdown-item">
-                <a href="#project1">Project 1</a>
+                <a href="https://tadeo199928.github.io/to-Do_List/">Todo List App</a>
               </li>
               <li className="dropdown-item">
-                <a href="#project2">Project 2</a>
+                <a href="https://tadeo199928.github.io/snake.js/">Snake.js</a>
               </li>
               <li className="dropdown-item">
-                <a href="#project3">Project 3</a>
+                <a href="https://tadeo199928.github.io/Portfolio/">My First Portfolio</a>
               </li>
             </ul>
           </li>
