@@ -34,14 +34,14 @@ export const Projects: React.FC = () => {
     {
       id: 5,
       title: "Project Five",
-      description: "A brief description of Project Five.",
+      description: "In Progress...",
       image: "https://i.ytimg.com/vi/M0fUKOv2A04/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB26tEFuzfqwDCdMC-VqE_0gUe6Gg",
       link: "#",
     },
     {
       id: 6,
       title: "Project Six",
-      description: "A brief description of Project Six.",
+      description: "In Progress...",
       image: "https://i.ytimg.com/vi/M0fUKOv2A04/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB26tEFuzfqwDCdMC-VqE_0gUe6Gg",
       link: "#",
     },
