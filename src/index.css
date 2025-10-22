@@ -9,6 +9,7 @@
     --foreground-color: #003cff;
     --primary-text-color: #0a0a0a;
     --secondary-text-color: #373535;
+    --element-bg: #d5d1d1;
     --toggle-bg: #f0eb9d;
     --toggle-fg: #ffd000;
 }
@@ -20,4 +21,5 @@
     --secondary-text-color: #cccccc;
     --toggle-bg: #283452;
     --toggle-fg: #00a6ff;
+    --element-bg: #4f4d4d;
 }
