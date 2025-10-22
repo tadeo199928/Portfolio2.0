@@ -1,73 +1,79 @@
-# React + TypeScript + Vite
+// filepath: /Users/jose.vasconcelos/prj/Portfolio2.0/README.md
+# 💼 José Vasconcelos - Portfolio 2.0
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A sleek and modern portfolio showcasing my journey as a developer
 
-Currently, two official plugins are available:
+![Portfolio Banner](https://via.placeholder.com/800x400/1a1a2e/16213e?text=Portfolio+2.0)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 About This Project
 
-## React Compiler
+This is my personal portfolio website, rebuilt from the ground up to showcase my evolution as a developer. Compare it with [my first portfolio](https://tadeo199928.github.io/Portfolio/) to see the progress!
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🌟 What Makes It Special
 
-## Expanding the ESLint configuration
+- **Performance First** - Lightning fast with Vite
+- **Type Safety** - Built with TypeScript for robust code
+- **Responsive Design** - Seamless experience across all devices
+- **Interactive Projects** - Showcase of my best work
+- **Clean Architecture** - Modular and maintainable codebase
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🔧 Built With
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+| Technology | Purpose |
+|------------|---------|
+| **React** | UI Framework |
+| **TypeScript** | Type Safety |
+| **Vite** | Build Tool |
+| **CSS Modules** | Styling |
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📁 Project Structure
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+src/
+├── components/
+│   ├── projects/     # Project showcase
+│   ├── contact/      # Contact section
+│   └── ...
+├── assets/          # Images & static files
+└── styles/          # Global styles
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🚀 Getting Started
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+```bash
+# Install dependencies
+npm install
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
 ```
+
+## 🎨 Featured Projects
+
+- **[Todo List App](https://tadeo199928.github.io/to-Do_List/)** - JavaScript task management
+- **[Snake.js](https://tadeo199928.github.io/snake.js/)** - Classic game with HTML5 Canvas
+- **[First Portfolio](https://tadeo199928.github.io/Portfolio/)** - My coding journey begins
+
+## 📈 Development Journey
+
+This portfolio represents significant growth from my first HTML/CSS website. Key improvements:
+
+- ✅ Component-based architecture
+- ✅ Modern JavaScript frameworks
+- ✅ TypeScript integration
+- ✅ Build optimization
+- ✅ Better UX/UI design
+
+## 🤝 Connect With Me
+
+- **[Linkedin](https://www.linkedin.com/in/tadeo199928j/)** - My linkedin
+
+---
+
+**Built with ❤️ by José Vasconcelos**
