@@ -28,8 +28,8 @@ export const Projects: React.FC = () => {
       id: 4,
       title: "Movie App",
       description: "Movie App built with React and The Movie DB API",
-      image: "https://i.ytimg.com/vi/M0fUKOv2A04/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB26tEFuzfqwDCdMC-VqE_0gUe6Gg",
-      link: "",
+      image: "/movie.png",
+      link: "https://movie-web2025.vercel.app/",
     },
     {
       id: 5,
