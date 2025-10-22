@@ -3,8 +3,6 @@
 
 > A sleek and modern portfolio showcasing my journey as a developer
 
-![Portfolio Banner](https://via.placeholder.com/800x400/1a1a2e/16213e?text=Portfolio+2.0)
-
 ## 🎯 About This Project
 
 This is my personal portfolio website, rebuilt from the ground up to showcase my evolution as a developer. Compare it with [my first portfolio](https://tadeo199928.github.io/Portfolio/) to see the progress!
