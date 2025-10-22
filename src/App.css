@@ -37,3 +37,13 @@ nav {
 main {
   width: 100%;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+#about,
+#projects,
+#contact {
+  scroll-margin-top: 80px;
+}

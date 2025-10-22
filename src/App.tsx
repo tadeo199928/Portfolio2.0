@@ -10,7 +10,8 @@ import { techStack } from "./components/skillsIcon/iconsData";
 import About from "./components/about/About";
 import SubtitleH2 from "./components/title/SubtitleH2";
 import { Projects } from "./components/projects/Projects";
-import Footer from "./components/footer/Footer"
+import Footer from "./components/footer/Footer";
+import { Contact } from "./components/contact/Contact";
 
 export const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(() => {
@@ -37,13 +38,17 @@ export const App = () => {
             <SubtitleH2 text="Tech Stack" />
             <SkillsIcon skills={techStack} />
           </div>
-          <div className="about-section">
+          <div id="about" className="about-section">
             <SubtitleH2 text="About Me" />
             <About />
           </div>
-          <div className="project-section">
+          <div id="projects" className="project-section">
             <SubtitleH2 text="Projects" />
             <Projects />
+          </div>
+          <div id="contact" className="contact-section">
+            <SubtitleH2 text="Contact Me" />
+            <Contact />
           </div>
         </main>
         <Footer />

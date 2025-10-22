@@ -29,10 +29,9 @@ const NavigationBar: React.FC = () => {
         </button>
         <ul className={`navbar-menu ${menuOpen ? "open" : ""}`}>
           <li className="navbar-item">
-            <a href="#home">Home</a>
-          </li>
-          <li className="navbar-item">
-            <a href="#about">About</a>
+            <a href="#about" onClick={() => setMenuOpen(false)}>
+              About
+            </a>
           </li>
           <li className="navbar-item dropdown">
             <button
@@ -44,18 +43,24 @@ const NavigationBar: React.FC = () => {
             </button>
             <ul className={`dropdown-menu ${dropdownOpen ? "open" : ""}`}>
               <li className="dropdown-item">
-                <a href="https://tadeo199928.github.io/to-Do_List/">Todo List App</a>
+                <a href="https://tadeo199928.github.io/to-Do_List/">
+                  Todo List App
+                </a>
               </li>
               <li className="dropdown-item">
                 <a href="https://tadeo199928.github.io/snake.js/">Snake.js</a>
               </li>
               <li className="dropdown-item">
-                <a href="https://tadeo199928.github.io/Portfolio/">My First Portfolio</a>
+                <a href="https://tadeo199928.github.io/Portfolio/">
+                  My First Portfolio
+                </a>
               </li>
             </ul>
           </li>
           <li className="navbar-item">
-            <a href="#contact">Contact</a>
+            <a href="#contact" onClick={() => setMenuOpen(false)}>
+              Contact
+            </a>
           </li>
           <li className="navbar-item">
             <Toggle handledChange={handleToggleChange} isChecked={isDarkMode} />
