@@ -55,6 +55,11 @@ const NavigationBar: React.FC = () => {
                   My First Portfolio
                 </a>
               </li>
+              <li className="dropdown-item">
+                <a href="https://movie-web2025.vercel.app/">
+                  Movie App
+                </a>
+              </li>
             </ul>
           </li>
           <li className="navbar-item">
