@@ -6,7 +6,7 @@ const About: React.FC = () => {
     <section id="about" className="about-container">
       <div className="carrousel">
         <img
-          src="https://media.licdn.com/dms/image/v2/D4D03AQGwBybA6rlNew/profile-displayphoto-shrink_800_800/B4DZRSpGbAHcAc-/0/1736553294135?e=1762992000&v=beta&t=QRq16GoHnYcllgV_yhb61ycGS5qLtGJGXWPaMWSU2No"
+          src="https://media.licdn.com/dms/image/v2/D4D03AQGBsttCz1NH9w/profile-displayphoto-crop_800_800/B4DZpJbWp3GQAI-/0/1762168499454?e=1763596800&v=beta&t=Mp0RXu-DAfWtrxbemscf1RVwOMPlQ-quaq7YEud58eQ"
           alt="Jose Vasconcelos"
         />
       </div>
