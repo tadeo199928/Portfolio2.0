@@ -33,10 +33,10 @@ export const Projects: React.FC = () => {
     },
     {
       id: 5,
-      title: "Project Five",
-      description: "In Progress...",
-      image: "https://i.ytimg.com/vi/M0fUKOv2A04/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB26tEFuzfqwDCdMC-VqE_0gUe6Gg",
-      link: "#",
+      title: "Responsive Website",
+      description: "A professional website for psychological services, built with vite, React and CSS (waiting deployment)",
+      image: "/psico_encuentros.png",
+      link: "https://psico-encuentros.vercel.app/",
     },
     {
       id: 6,
