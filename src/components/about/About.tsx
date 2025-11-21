@@ -6,8 +6,8 @@ const About: React.FC = () => {
     <section id="about" className="about-container">
       <div className="carrousel">
         <img
-          src="https://media.licdn.com/dms/image/v2/D4D03AQGBsttCz1NH9w/profile-displayphoto-crop_800_800/B4DZpJbWp3GQAI-/0/1762168499454?e=1763596800&v=beta&t=Mp0RXu-DAfWtrxbemscf1RVwOMPlQ-quaq7YEud58eQ"
-          alt="Jose Vasconcelos"
+          src="/Myimg.jpeg"
+           alt="Jose Vasconcelos"
         />
       </div>
       <p>
