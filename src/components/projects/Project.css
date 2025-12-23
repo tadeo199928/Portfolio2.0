@@ -2,7 +2,7 @@
   margin: 2rem auto;
   gap: 2rem;
   display: grid;
-  max-width: 1200px;
+  max-width: 1300px;
   grid-template-columns: repeat(3, 1fr);
   padding: 0 2rem;
 }
@@ -29,7 +29,7 @@
 
 .project-image {
   width: 100%;
-  height: 180px;
+  height: 200px;
   object-fit: cover;
   border-radius: 10px;
   margin-bottom: 0.5rem;
@@ -37,14 +37,14 @@
 
 .project-card h3 {
   color: var(--primary-text-color);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin: 0;
   font-weight: 600;
 }
 
 .project-card p {
   color: var(--primary-text-color);
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.5;
   margin: 0;
   flex-grow: 1;

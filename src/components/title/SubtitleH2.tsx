@@ -5,10 +5,11 @@ interface TitleProps {
   text: string;
 }
 
-const SubtitleH2: React.FC<TitleProps> = ({ text }) => {
+function SubtitleH2({ text }: TitleProps) {
   return (
     <div className="title-container-h2">
       <TextType
+        as="h2"
         text={[text]}
         typingSpeed={75}
         showCursor={true}

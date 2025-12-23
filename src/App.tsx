@@ -31,7 +31,7 @@ export const App = () => {
           <div className="title">
             <Title text="Jose Vasconcelos" />
             <MainSubtitle
-              text={["Front-end Developer", "Problem Solver", "Quick Learner"]}
+              text={["Junior Frontend Developer", "React + TypeScript", "Problem Solver"]}
             />
           </div>
           <div className="tech-stack">

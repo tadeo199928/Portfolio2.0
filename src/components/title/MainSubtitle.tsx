@@ -5,7 +5,7 @@ interface SubtitleProps {
   text: string[];
 }
 
-const MainSubtitle: React.FC<SubtitleProps> = ({ text }) => {
+function MainSubtitle({ text }: SubtitleProps) {
   return (
     <div className="subtitle-container">
       <TextType

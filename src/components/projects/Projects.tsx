@@ -3,48 +3,62 @@ import "./Project.css";
 
 export const Projects: React.FC = () => {
   const projects = [
+
     {
       id: 1,
-      title: "Todo List App",
-      description: "This is a simple Todo List application built with JS",
-      image: "/todo.png",
-      link: "https://tadeo199928.github.io/to-Do_List/",
+      title: "Movie App",
+      description:
+        "Responsive movie search UI consuming TMDB REST API with clear loading/error states.",
+      image: "/movie.png",
+      link: "https://movie-web2025.vercel.app/",
+      tech: "React, TypeScript, TMDB API, Vercel",
     },
     {
       id: 2,
-      title: "Snkake.js",
-      description: "Game developed with JavaScript and HTML5 Canvas",
-      image: "/snake_js.png",
-      link: "https://tadeo199928.github.io/snake.js/",
+      title: "Professional Contact Page",
+      description:
+        "One‑page site for a psychology service with responsive layout and clear CTAs.",
+      image: "/psico_encuentros.png",
+      link: "https://psico-encuentros.vercel.app/",
+      tech: "React, TypeScript, Vite, CSS",
     },
     {
       id: 3,
-      title: "My first Portfolio",
-      description: "This was my first page made with HTML and CSS, you can compare my progress",
-      image: "/old_portfolio.png",
-      link: "https://tadeo199928.github.io/Portfolio/",
+      title: "Todo List App",
+      description:
+        "Simple task manager; add, mark complete, and remove tasks with a clean UI.",
+      image: "/todo.png",
+      link: "https://tadeo199928.github.io/to-Do_List/",
+      tech: "JavaScript, HTML, CSS",
     },
     {
       id: 4,
-      title: "Movie App",
-      description: "Movie App built with React and The Movie DB API",
-      image: "/movie.png",
-      link: "https://movie-web2025.vercel.app/",
+      title: "Snake.js",
+      description:
+        "Classic Snake game built with JavaScript and HTML5 Canvas.",
+      image: "/snake_js.png",
+      link: "https://tadeo199928.github.io/snake.js/",
+      tech: "JavaScript, HTML5 Canvas",
     },
     {
       id: 5,
-      title: "Responsive Website",
-      description: "A professional website for psychological services, built with vite, React and CSS (waiting deployment)",
-      image: "/psico_encuentros.png",
-      link: "https://psico-encuentros.vercel.app/",
+      title: "My First Portfolio",
+      description:
+        "My first HTML/CSS portfolio—to compare progress over time.",
+      image: "/old_portfolio.png",
+      link: "https://tadeo199928.github.io/Portfolio/",
+      tech: "HTML, CSS",
     },
     {
-      id: 6,
-      title: "Project Six",
-      description: "In Progress...",
-      image: "https://i.ytimg.com/vi/M0fUKOv2A04/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB26tEFuzfqwDCdMC-VqE_0gUe6Gg",
+            id: 6,
+      title: "In Progress",
+      description:
+        "More Work In Progress",
+      image: "/iconimg.png",
       link: "#",
-    },
+      tech: "...",
+    }
+
   ];
 
   return (
@@ -58,6 +72,7 @@ export const Projects: React.FC = () => {
           />
           <h3>{project.title}</h3>
           <p>{project.description}</p>
+          <p><strong>Tech:</strong> {project.tech}</p>
           <a href={project.link}>View Project</a>
         </div>
       ))}
