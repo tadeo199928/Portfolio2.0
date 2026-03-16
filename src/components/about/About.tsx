@@ -30,9 +30,16 @@ const About: React.FC = () => {
           <strong>Related skills and Tools</strong>{" "}
         </p>
         <ul className="about-highlights">
-          <li>Frontend: React, TypeScript, JavaScript, HTML, CSS</li>
-          <li>Testing: Jest, Cypress, Playwright</li>
-          <li>Tooling: Git, GitHub, Vite • Practices: Agile/Scrum</li>
+          <li>
+            Frontend: React, TypeScript, JavaScript (ES6+), HTML5, CSS3,
+            TailwindCSS, Angular
+          </li>
+          <li>
+            Backend: Node.js, Express, PHP, MySQL, MongoDB, Python, REST APIs
+          </li>
+          <li>Testing: Jest, Cypress, Playwright, E2E Testing, BDD (Gherkin/Cucumber)</li>
+          <li>DevOps & Tooling: Docker, Git, GitHub, Vite, npm/yarn, CI/CD</li>
+          <li>Design & Collaboration: Figma, Confluence, Agile, Scrum</li>
           <li>Languages: Spanish (Native), Portuguese (C1), English (C1)</li>
         </ul>
       </div>
