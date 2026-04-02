@@ -5,6 +5,15 @@ export const Projects: React.FC = () => {
   const projects = [
     {
       id: 1,
+      title: "a11y Grade (Future Project)",
+      description:
+        " Accessibility grading tool for websites, providing insights and improvement suggestions based on WCAG guidelines.",
+      image: "/a11y_grade.png",
+      link: "https://a11y-grade.vercel.app/",
+      tech: "Angular, TypeScript, Vite, Node.js, Express, CSS",
+    },
+        {
+      id: 2,
       title: "Full-stack digital sandtray therapy app",
       description:
         " Features patient management, drag-and-drop figure placement on an interactive sandbox, and session tracking with a secure login.(To try the app, contact me for demo credentials.)",
@@ -14,7 +23,7 @@ export const Projects: React.FC = () => {
     },
 
     {
-      id: 2,
+      id: 3,
       title: "Professional Contact Page",
       description:
         "One‑page site for a psychology service with responsive layout and clear CTAs.",
@@ -23,7 +32,7 @@ export const Projects: React.FC = () => {
       tech: "React, TypeScript, Vite, CSS",
     },
     {
-      id: 3,
+      id: 4,
       title: "LicitaNow (Design Prototype)",
       description:
         "Design prototype for a bidding platform, showcasing UI/UX concepts.",
@@ -33,7 +42,7 @@ export const Projects: React.FC = () => {
     },
 
     {
-      id: 4,
+      id: 5,
       title: "Movie App",
       description:
         "Responsive movie search UI consuming TMDB REST API with clear loading/error states.",
@@ -42,7 +51,7 @@ export const Projects: React.FC = () => {
       tech: "React, TypeScript, TMDB API, Vercel",
     },
     {
-      id: 5,
+      id: 6,
       title: "Snake.js",
       description: "Classic Snake game built with JavaScript and HTML5 Canvas.",
       image: "/snake_js.png",
@@ -50,7 +59,7 @@ export const Projects: React.FC = () => {
       tech: "JavaScript, HTML5 Canvas",
     },
     {
-      id: 6,
+      id: 7,
       title: "Todo List App",
       description:
         "Simple task manager; add, mark complete, and remove tasks with a clean UI.",
@@ -59,7 +68,7 @@ export const Projects: React.FC = () => {
       tech: "JavaScript, HTML, CSS",
     },
     {
-      id: 7,
+      id: 8,
       title: "My First Portfolio",
       description: "My first HTML/CSS portfolio—to compare progress over time.",
       image: "/old_portfolio.png",
@@ -67,15 +76,6 @@ export const Projects: React.FC = () => {
       tech: "HTML, CSS",
     },
 
-    {
-      id: 8,
-      title: "Work in Progress",
-      description:
-        "More projects coming soon as I continue to learn and grow as a developer!",
-      image: "/iconimg.png",
-      link: "https://tadeo199928.github.io/Portfolio/",
-      tech: "Stay tuned!",
-    },
     {
       id: 9,
       title: "Work in Progress",
