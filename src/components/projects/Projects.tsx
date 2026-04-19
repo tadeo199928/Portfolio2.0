@@ -5,7 +5,7 @@ export const Projects: React.FC = () => {
   const projects = [
     {
       id: 1,
-      title: "a11y Grade (Future Project)",
+      title: "a11y Grade (Work in Progress)",
       description:
         " Accessibility grading tool for websites, providing insights and improvement suggestions based on WCAG guidelines.",
       image: "/a11y_grade.png",
@@ -14,9 +14,9 @@ export const Projects: React.FC = () => {
     },
         {
       id: 2,
-      title: "Full-stack digital sandtray therapy app",
+      title: "Full-stack digital therapy app",
       description:
-        " Features patient management, drag-and-drop figure placement on an interactive sandbox, and session tracking with a secure login.(To try the app, contact me for demo credentials.)",
+        " Features patient management, drag-and-drop figure placement on an interactive sandbox, and session tracking with a secure login.(To try the app, check github readme for credentials.)",
       image: "/dioses.png",
       link: "https://caja-de-arena.vercel.app/",
       tech: "React, TypeScript, Vite, Node.js, Express, CSS",
